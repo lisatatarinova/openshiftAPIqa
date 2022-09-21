@@ -1,0 +1,168 @@
+{
+	"info": {
+		"_postman_id": "4e57ec21-7475-42eb-ac15-3c1b280a6957",
+		"name": "openshift",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{my_project}}/apis/user.openshift.io/v1/users/~",
+					"host": [
+						"{{my_project}}"
+					],
+					"path": [
+						"apis",
+						"user.openshift.io",
+						"v1",
+						"users",
+						"~"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{my_project}}/apis/project.openshift.io/v1/projects",
+					"host": [
+						"{{my_project}}"
+					],
+					"path": [
+						"apis",
+						"project.openshift.io",
+						"v1",
+						"projects"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get projects/{name}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{my_project}}/apis/project.openshift.io/v1/projects/lisssalavo-dev",
+					"host": [
+						"{{my_project}}"
+					],
+					"path": [
+						"apis",
+						"project.openshift.io",
+						"v1",
+						"projects",
+						"lisssalavo-dev"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get pods from namespace",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{my_project}}/api/v1/namespaces/lisssalavo-dev/pods/example/log",
+					"host": [
+						"{{my_project}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"namespaces",
+						"lisssalavo-dev",
+						"pods",
+						"example",
+						"log"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get deploymentconfig",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{my_project}}/apis/apps.openshift.io/v1/namespaces/lisssalavo-dev/deploymentconfigs",
+					"host": [
+						"{{my_project}}"
+					],
+					"path": [
+						"apis",
+						"apps.openshift.io",
+						"v1",
+						"namespaces",
+						"lisssalavo-dev",
+						"deploymentconfigs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post deploymentconfig",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{my_project}}/apis/apps.openshift.io/v1/namespaces/lisssalavo-dev/deploymentconfigs",
+					"host": [
+						"{{my_project}}"
+					],
+					"path": [
+						"apis",
+						"apps.openshift.io",
+						"v1",
+						"namespaces",
+						"lisssalavo-dev",
+						"deploymentconfigs"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "sha256~vZydRLpOJxonZfqzTD0lOyryppHCtTuN_6V9_yGiNl0",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
