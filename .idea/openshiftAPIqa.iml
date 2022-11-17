@@ -12,43 +12,16 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Maven: io.fabric8:openshift-client:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-client:5.9.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:openshift-model:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-core:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-rbac:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-admissionregistration:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-apps:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-autoscaling:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-apiextensions:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-batch:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-certificates:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-coordination:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-discovery:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-events:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-extensions:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-flowcontrol:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-networking:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-metrics:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-policy:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-scheduling:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-storageclass:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-node:5.9.0" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okhttp3:okhttp:3.12.12" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okio:okio:1.15.0" level="project" />
-    <orderEntry type="library" name="Maven: com.squareup.okhttp3:logging-interceptor:3.12.12" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.0" level="project" />
-    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.28" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.0" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.0" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:zjsonpatch:0.3.0" level="project" />
-    <orderEntry type="library" name="Maven: com.github.mifmif:generex:1.0.2" level="project" />
-    <orderEntry type="library" name="Maven: dk.brics.automaton:automaton:1.11-8" level="project" />
-    <orderEntry type="library" name="Maven: io.fabric8:openshift-model:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-common:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.13.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:openshift-model-clusterautoscaling:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:openshift-model-operator:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:openshift-model-operatorhub:5.9.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-apps:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:openshift-model-machine:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:openshift-model-whereabouts:5.9.0" level="project" />
     <orderEntry type="library" name="Maven: io.fabric8:openshift-model-monitoring:5.9.0" level="project" />
@@ -77,5 +50,33 @@
     <orderEntry type="library" scope="TEST" name="Maven: io.rest-assured:rest-assured-common:4.5.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: io.rest-assured:xml-path:4.5.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-lang3:3.11" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-client:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-client-api:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-gatewayapi:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-autoscaling:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-apiextensions:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-batch:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-certificates:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-coordination:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-discovery:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-events:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-extensions:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-flowcontrol:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-networking:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-metrics:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-policy:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-scheduling:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-storageclass:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:kubernetes-model-node:6.2.0" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.33" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.13.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.13.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.13.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.13.4" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: io.fabric8:kubernetes-httpclient-okhttp:6.2.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.squareup.okhttp3:okhttp:3.12.12" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.squareup.okio:okio:1.15.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: com.squareup.okhttp3:logging-interceptor:3.12.12" level="project" />
+    <orderEntry type="library" name="Maven: io.fabric8:zjsonpatch:0.3.0" level="project" />
   </component>
 </module>
